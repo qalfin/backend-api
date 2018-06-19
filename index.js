@@ -50,7 +50,7 @@ app.post('/user',(req, res) => {
     res.json(body)
 })
 
-app.put('/user',(req, res) => {
+app.put('/users',(req, res) => {
     let body = req.body
     res.json(body)
 })
